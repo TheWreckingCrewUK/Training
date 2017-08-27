@@ -30,10 +30,6 @@ The Training Mission used in The Wrecking Crew Realism ArmA 3 Group. To contribu
 * @pr_objects
 * @r_unfold
 * @razmisc
-* @rhs_afrf3
-* @rhs_compatibility
-* @rhs_gref
-* @rhs_usf3
 * @twc_config
 * @twc_framework
 * @ukcw
