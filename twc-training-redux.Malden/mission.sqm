@@ -8,7 +8,7 @@ class EditorData
 	toggles=521;
 	class ItemIDProvider
 	{
-		nextID=337;
+		nextID=349;
 	};
 	class MarkerIDProvider
 	{
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={8569.6758,48.84053,10098.534};
-		dir[]={-0.91435534,-0.34660569,0.20990942};
-		up[]={-0.33796638,0.93781185,0.077586457};
-		aside[]={0.22377162,-2.0194566e-006,0.9747296};
+		pos[]={8246.2383,50.525528,10246.956};
+		dir[]={-0.87000018,-0.40413016,0.28271756};
+		up[]={-0.38444069,0.91465819,0.12492666};
+		aside[]={0.3090786,-1.010776e-007,0.95112693};
 	};
 };
 binarizationWanted=0;
@@ -222,7 +222,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=177;
+		items=179;
 		class Item0
 		{
 			dataType="Object";
@@ -1961,7 +1961,7 @@ class Mission
 			side="West";
 			class Entities
 			{
-				items=16;
+				items=8;
 				class Item0
 				{
 					dataType="Object";
@@ -2596,644 +2596,6 @@ class Mission
 						nAttributes=3;
 					};
 				};
-				class Item8
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={8212.1572,28.771439,10275.714};
-						angles[]={0,4.3085203,0};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-						description="Trainee@Trainees";
-						isPlayable=1;
-					};
-					id=198;
-					type="Modern_British_Rifleman";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="acex_headless_blacklist";
-							expression="_this setVariable [""acex_headless_blacklist"",_value,true]";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"BOOL"
-										};
-									};
-									value=0;
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="Male10ENG";
-								};
-							};
-						};
-						class Attribute2
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=1;
-								};
-							};
-						};
-						nAttributes=3;
-					};
-				};
-				class Item9
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={8210.2041,28.771439,10280.263};
-						angles[]={0,4.3085203,0};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-						description="Trainee@Trainees";
-						isPlayable=1;
-					};
-					id=199;
-					type="Modern_British_Rifleman";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="acex_headless_blacklist";
-							expression="_this setVariable [""acex_headless_blacklist"",_value,true]";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"BOOL"
-										};
-									};
-									value=0;
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="Male07ENG";
-								};
-							};
-						};
-						class Attribute2
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=1.03;
-								};
-							};
-						};
-						nAttributes=3;
-					};
-				};
-				class Item10
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={8214.1328,28.771441,10271.067};
-						angles[]={0,4.3085203,0};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-						description="Trainee@Trainees";
-						isPlayable=1;
-					};
-					id=200;
-					type="Modern_British_Rifleman";
-					atlOffset=1.9073486e-006;
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="acex_headless_blacklist";
-							expression="_this setVariable [""acex_headless_blacklist"",_value,true]";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"BOOL"
-										};
-									};
-									value=0;
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="Male08ENG";
-								};
-							};
-						};
-						class Attribute2
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=1.05;
-								};
-							};
-						};
-						nAttributes=3;
-					};
-				};
-				class Item11
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={8208.2383,28.771441,10284.862};
-						angles[]={0,4.3085203,0};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-						description="Trainee@Trainees";
-						isPlayable=1;
-					};
-					id=201;
-					type="Modern_British_Rifleman";
-					atlOffset=1.9073486e-006;
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="acex_headless_blacklist";
-							expression="_this setVariable [""acex_headless_blacklist"",_value,true]";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"BOOL"
-										};
-									};
-									value=0;
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="Male09ENG";
-								};
-							};
-						};
-						class Attribute2
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.95999998;
-								};
-							};
-						};
-						nAttributes=3;
-					};
-				};
-				class Item12
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={8216.0986,28.771441,10266.469};
-						angles[]={0,4.3085203,0};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-						description="Trainee@Trainees";
-						isPlayable=1;
-					};
-					id=202;
-					type="Modern_British_Rifleman";
-					atlOffset=1.9073486e-006;
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="acex_headless_blacklist";
-							expression="_this setVariable [""acex_headless_blacklist"",_value,true]";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"BOOL"
-										};
-									};
-									value=0;
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="Male03ENG";
-								};
-							};
-						};
-						class Attribute2
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=1.03;
-								};
-							};
-						};
-						nAttributes=3;
-					};
-				};
-				class Item13
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={8206.2744,28.771441,10289.46};
-						angles[]={0,4.3085203,0};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-						description="Trainee@Trainees";
-						isPlayable=1;
-					};
-					id=203;
-					type="Modern_British_Rifleman";
-					atlOffset=1.9073486e-006;
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="acex_headless_blacklist";
-							expression="_this setVariable [""acex_headless_blacklist"",_value,true]";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"BOOL"
-										};
-									};
-									value=0;
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="Male11ENG";
-								};
-							};
-						};
-						class Attribute2
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=1.02;
-								};
-							};
-						};
-						nAttributes=3;
-					};
-				};
-				class Item14
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={8218.0615,28.772526,10261.872};
-						angles[]={0,4.3085203,0};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-						description="Trainee@Trainees";
-						isPlayable=1;
-					};
-					id=204;
-					type="Modern_British_Rifleman";
-					atlOffset=1.9073486e-006;
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="acex_headless_blacklist";
-							expression="_this setVariable [""acex_headless_blacklist"",_value,true]";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"BOOL"
-										};
-									};
-									value=0;
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="Male03ENG";
-								};
-							};
-						};
-						class Attribute2
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.98000002;
-								};
-							};
-						};
-						nAttributes=3;
-					};
-				};
-				class Item15
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={8204.3076,28.771441,10294.055};
-						angles[]={0,4.3085203,0};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-						description="Trainee@Trainees";
-						isPlayable=1;
-					};
-					id=205;
-					type="Modern_British_Rifleman";
-					atlOffset=1.9073486e-006;
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="acex_headless_blacklist";
-							expression="_this setVariable [""acex_headless_blacklist"",_value,true]";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"BOOL"
-										};
-									};
-									value=0;
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="Male12ENG";
-								};
-							};
-						};
-						class Attribute2
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.97000003;
-								};
-							};
-						};
-						nAttributes=3;
-					};
-				};
 			};
 			class Attributes
 			{
@@ -3613,6 +2975,48 @@ class Mission
 			{
 			};
 			id=206;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="groupID";
+					expression="[_this, _value] call CBA_fnc_setCallsign";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="Trainers";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="acex_headless_blacklist";
+					expression="_this setVariable [""acex_headless_blacklist"",_value,true]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=2;
+			};
 		};
 		class Item89
 		{
@@ -4661,7 +4065,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={8153.8804,32.825001,10581.927};
-				angles[]={-0,3.7435215,0};
+				angles[]={0,3.7435215,0};
 			};
 			side="Empty";
 			flags=4;
@@ -4677,7 +4081,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={8157.0234,32.825001,10579.776};
-				angles[]={-0,3.7701063,0};
+				angles[]={0,3.7701063,0};
 			};
 			side="Empty";
 			flags=4;
@@ -4693,7 +4097,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={8146.3438,32.902969,10582.452};
-				angles[]={-0,3.0514584,6.2727928};
+				angles[]={0,3.0514584,6.2727928};
 			};
 			side="Empty";
 			flags=4;
@@ -4727,7 +4131,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={8172.1348,32.678795,10552.195};
-				angles[]={-0,4.6719894,6.2679896};
+				angles[]={0,4.6719894,6.2679896};
 			};
 			side="Empty";
 			flags=4;
@@ -4736,6 +4140,7 @@ class Mission
 			};
 			id=295;
 			type="TWC_Vehicle_Millennial_LandRover_Desert";
+			atlOffset=-1.9073486e-006;
 		};
 		class Item148
 		{
@@ -4743,7 +4148,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={8171.0518,32.668709,10555.468};
-				angles[]={-0,4.6799564,6.2679896};
+				angles[]={0,4.6799564,6.2679896};
 			};
 			side="Empty";
 			flags=4;
@@ -4759,7 +4164,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={8170.9199,32.670704,10557.985};
-				angles[]={-0,4.6799564,6.2679896};
+				angles[]={0,4.6799564,6.2679896};
 			};
 			side="Empty";
 			flags=4;
@@ -4776,7 +4181,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={8170.1709,32.576256,10561.545};
-				angles[]={-0,4.6524982,6.2679896};
+				angles[]={0,4.6524982,6.2679896};
 			};
 			side="Empty";
 			flags=4;
@@ -4785,6 +4190,7 @@ class Mission
 			};
 			id=300;
 			type="TWC_Vehicle_Millennial_LandRoverSnatch_NI_COIN";
+			atlOffset=1.9073486e-006;
 		};
 		class Item151
 		{
@@ -4792,7 +4198,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={8169.9956,32.578911,10564.083};
-				angles[]={-0,4.6524982,6.2679896};
+				angles[]={0,4.6524982,6.2679896};
 			};
 			side="Empty";
 			flags=4;
@@ -4801,6 +4207,7 @@ class Mission
 			};
 			id=301;
 			type="TWC_Vehicle_Millennial_LandRoverSnatch_NI_COIN";
+			atlOffset=1.9073486e-006;
 		};
 		class Item152
 		{
@@ -4817,6 +4224,7 @@ class Mission
 			};
 			id=303;
 			type="TWC_Vehicle_Modern_LandRover_Woodland";
+			atlOffset=-1.9073486e-006;
 		};
 		class Item153
 		{
@@ -4849,7 +4257,7 @@ class Mission
 			};
 			id=305;
 			type="TWC_Vehicle_Modern_LandRoverHard_Woodland";
-			atlOffset=7.6293945e-006;
+			atlOffset=9.5367432e-006;
 		};
 		class Item155
 		{
@@ -4898,7 +4306,6 @@ class Mission
 			};
 			id=308;
 			type="TWC_Vehicle_Millennial_LandRoverSnatch_Desert_COIN";
-			atlOffset=1.9073486e-006;
 		};
 		class Item158
 		{
@@ -4931,6 +4338,7 @@ class Mission
 			};
 			id=310;
 			type="TWC_Vehicle_Modern_LandRoverWMIK_GMG_Desert";
+			atlOffset=-5.3405762e-005;
 		};
 		class Item160
 		{
@@ -4938,7 +4346,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={8177.4907,32.546051,10493.063};
-				angles[]={-0,4.6432757,6.2767911};
+				angles[]={0,4.6432757,6.2767911};
 			};
 			side="Empty";
 			flags=4;
@@ -4947,6 +4355,7 @@ class Mission
 			};
 			id=311;
 			type="TWC_Vehicle_Modern_LandRoverWMIK_GPMG_Desert";
+			atlOffset=1.9073486e-006;
 		};
 		class Item161
 		{
@@ -4954,7 +4363,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={8177.6411,32.54509,10490.399};
-				angles[]={-0,4.6432757,6.2767911};
+				angles[]={0,4.6432757,6.2767911};
 			};
 			side="Empty";
 			flags=4;
@@ -4963,6 +4372,7 @@ class Mission
 			};
 			id=312;
 			type="TWC_Vehicle_Modern_LandRoverWMIK_GPMG_Desert";
+			atlOffset=1.9073486e-006;
 		};
 		class Item162
 		{
@@ -4979,6 +4389,7 @@ class Mission
 			};
 			id=313;
 			type="TWC_Vehicle_Modern_LandRoverWMIK_HMG_Desert";
+			atlOffset=-5.7220459e-006;
 		};
 		class Item163
 		{
@@ -4995,6 +4406,7 @@ class Mission
 			};
 			id=314;
 			type="TWC_Vehicle_Modern_LandRoverWMIK_HMG_Desert";
+			atlOffset=-1.5258789e-005;
 		};
 		class Item164
 		{
@@ -5011,7 +4423,7 @@ class Mission
 			};
 			id=315;
 			type="TWC_Vehicle_Modern_Foxhound_Desert";
-			atlOffset=-1.9073486e-006;
+			atlOffset=-5.7220459e-006;
 		};
 		class Item165
 		{
@@ -5028,6 +4440,7 @@ class Mission
 			};
 			id=316;
 			type="TWC_Vehicle_Modern_Foxhound_Desert";
+			atlOffset=-9.5367432e-006;
 		};
 		class Item166
 		{
@@ -5035,7 +4448,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={8179.561,30.094461,10468.742};
-				angles[]={-0,4.6753111,6.277597};
+				angles[]={0,4.6753111,6.277597};
 			};
 			side="Empty";
 			flags=4;
@@ -5051,7 +4464,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={8190.916,30.014475,10468.53};
-				angles[]={-0,4.7427588,6.2727928};
+				angles[]={0,4.7427588,6.2727928};
 			};
 			side="Empty";
 			flags=4;
@@ -5094,7 +4507,7 @@ class Mission
 			};
 			id=320;
 			type="Land_Pier_F";
-			atlOffset=-1.8529297;
+			atlOffset=-1.8529298;
 		};
 		class Item170
 		{
@@ -5111,7 +4524,7 @@ class Mission
 			};
 			id=321;
 			type="Land_Pier_wall_F";
-			atlOffset=5.4602823;
+			atlOffset=5.460247;
 		};
 		class Item171
 		{
@@ -5162,7 +4575,7 @@ class Mission
 			};
 			id=331;
 			type="Land_LampHarbour_F";
-			atlOffset=0.004147768;
+			atlOffset=0.0041475296;
 		};
 		class Item174
 		{
@@ -5275,6 +4688,550 @@ class Mission
 				{
 					property="#hideLocally";
 					expression="_this setVariable [""#hideLocally"",_value]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+		class Item177
+		{
+			dataType="Group";
+			side="West";
+			class Attributes
+			{
+			};
+			id=337;
+			atlOffset=96.493599;
+		};
+		class Item178
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=6;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={8160.5596,29.089863,10292.872};
+						angles[]={0,1.4965849,0};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						description="Vehicle Commander Trainee@Armour Crew/Commander Trainees";
+						isPlayable=1;
+					};
+					id=346;
+					type="Modern_British_VehicleCommander";
+					atlOffset=-1.9073486e-006;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="acex_headless_blacklist";
+							expression="_this setVariable [""acex_headless_blacklist"",_value,true]";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male05ENG";
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.02;
+								};
+							};
+						};
+						nAttributes=3;
+					};
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={8160.603,29.117624,10295.428};
+						angles[]={0,1.6567887,0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						description="Vehicle Crew Trainee";
+						isPlayable=1;
+					};
+					id=347;
+					type="Modern_British_VehicleCrew";
+					atlOffset=1.1444092e-005;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="acex_headless_blacklist";
+							expression="_this setVariable [""acex_headless_blacklist"",_value,true]";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male02ENG";
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=3;
+					};
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={8160.6509,29.142317,10297.719};
+						angles[]={0,1.6567887,0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						description="Vehicle Crew Trainee";
+						isPlayable=1;
+					};
+					id=348;
+					type="Modern_British_VehicleCrew";
+					atlOffset=5.7220459e-006;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="acex_headless_blacklist";
+							expression="_this setVariable [""acex_headless_blacklist"",_value,true]";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male08ENG";
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.04;
+								};
+							};
+						};
+						nAttributes=3;
+					};
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={8160.4668,29.017488,10286.333};
+						angles[]={0,1.4965849,0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						description="Vehicle Commander Trainee@Armour Crew/Commander Trainees";
+						isPlayable=1;
+					};
+					id=341;
+					type="Modern_British_VehicleCommander";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="acex_headless_blacklist";
+							expression="_this setVariable [""acex_headless_blacklist"",_value,true]";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male05ENG";
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.02;
+								};
+							};
+						};
+						nAttributes=3;
+					};
+				};
+				class Item4
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={8160.5293,29.036512,10288.313};
+						angles[]={0,1.6567887,0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						description="Vehicle Crew Trainee";
+						isPlayable=1;
+					};
+					id=342;
+					type="Modern_British_VehicleCrew";
+					atlOffset=5.7220459e-006;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="acex_headless_blacklist";
+							expression="_this setVariable [""acex_headless_blacklist"",_value,true]";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male02ENG";
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=3;
+					};
+				};
+				class Item5
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={8160.5771,29.064119,10290.604};
+						angles[]={0,1.6567887,0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						description="Vehicle Crew Trainee";
+						isPlayable=1;
+					};
+					id=344;
+					type="Modern_British_VehicleCrew";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="acex_headless_blacklist";
+							expression="_this setVariable [""acex_headless_blacklist"",_value,true]";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male08ENG";
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.04;
+								};
+							};
+						};
+						nAttributes=3;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=345;
+			atlOffset=-1.9073486e-006;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="groupID";
+					expression="[_this, _value] call CBA_fnc_setCallsign";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="Armour Vehicle";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="acex_headless_blacklist";
+					expression="_this setVariable [""acex_headless_blacklist"",_value,true]";
 					class Value
 					{
 						class data
