@@ -5,10 +5,10 @@ class EditorData
 	angleGridStep=0.2617994;
 	scaleGridStep=1;
 	autoGroupingDist=10;
-	toggles=521;
+	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=353;
+		nextID=385;
 	};
 	class MarkerIDProvider
 	{
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={8174.1938,34.872623,10276.439};
-		dir[]={0.74371958,-0.39630243,0.53842282};
-		up[]={0.3210282,0.91810477,0.23241188};
-		aside[]={0.58644021,2.4268957e-007,-0.81004184};
+		pos[]={8057.3232,43.299892,9676.4717};
+		dir[]={0.4438169,-0.58671147,0.67751551};
+		up[]={0.32158545,0.8096562,0.49091882};
+		aside[]={0.8365885,-8.8833622e-007,-0.54801983};
 	};
 };
 binarizationWanted=0;
@@ -51,13 +51,15 @@ addons[]=
 	"A3_Structures_F_Naval_Piers",
 	"A3_Structures_F_Civ_Lamps",
 	"A3_Structures_F_EPB_Civ_Accessories",
-	"A3_Modules_F"
+	"A3_Modules_F",
+	"CUP_Buildings_Config",
+	"twc_modern"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=23;
+		items=25;
 		class Item0
 		{
 			className="A3_Structures_F";
@@ -189,6 +191,16 @@ class AddonsMetaData
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
+		class Item23
+		{
+			className="CUP_Buildings_Config";
+			name="CUP_Buildings_Config";
+		};
+		class Item24
+		{
+			className="twc_modern";
+			name="twc_modern";
+		};
 	};
 };
 randomSeed=460684;
@@ -222,7 +234,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=177;
+		items=195;
 		class Item0
 		{
 			dataType="Object";
@@ -3364,8 +3376,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={8104.7524,29.388594,9694.7354};
-				angles[]={0,0,6.2807932};
+				position[]={8104.6875,29.388752,9695.6172};
+				angles[]={-0,0,6.2807932};
 			};
 			side="Empty";
 			flags=4;
@@ -3374,14 +3386,15 @@ class Mission
 			};
 			id=285;
 			type="TWC_AmmoBox_Other_Medical_Portable";
+			atlOffset=1.9073486e-006;
 		};
 		class Item140
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={8104.7559,29.388588,9694.2656};
-				angles[]={0,0,6.2807932};
+				position[]={8104.707,29.388706,9695.1455};
+				angles[]={-0,0,6.2807932};
 			};
 			side="Empty";
 			flags=4;
@@ -3390,14 +3403,15 @@ class Mission
 			};
 			id=287;
 			type="TWC_AmmoBox_Other_Medical_Portable";
+			atlOffset=1.9073486e-006;
 		};
 		class Item141
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={8104.7603,29.388577,9693.7744};
-				angles[]={0,0,6.2807932};
+				position[]={8104.6914,29.388741,9694.6895};
+				angles[]={-0,0,6.2807932};
 			};
 			side="Empty";
 			flags=4;
@@ -4066,8 +4080,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={8203.2861,28.771439,10298.94};
-						angles[]={0,2.6775446,6.2816491};
+						position[]={8057.4556,30.30644,9694.5117};
+						angles[]={0,3.13887,0};
 					};
 					side="West";
 					flags=7;
@@ -4126,13 +4140,14 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={8201.3418,28.771439,10298.059};
-						angles[]={-0,2.6775475,6.2816415};
+						position[]={8055.3218,30.31315,9694.5869};
+						angles[]={0,3.1388729,0};
 					};
 					side="West";
 					flags=5;
 					class Attributes
 					{
+						description="Trainer (Medical)@Trainers (Medical)";
 						isPlayable=1;
 					};
 					id=351;
@@ -4143,13 +4158,14 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={8205.0859,28.771439,10299.748};
-						angles[]={-0,2.6775475,0};
+						position[]={8059.4268,30.300259,9694.4336};
+						angles[]={0,3.1388729,0};
 					};
 					side="West";
 					flags=5;
 					class Attributes
 					{
+						description="Trainer (Medical)@Trainers (Medical)";
 						isPlayable=1;
 					};
 					id=352;
@@ -4180,6 +4196,548 @@ class Mission
 								};
 							};
 							value="Trainers (Medical)";
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item177
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={8103.3901,29.391865,9695.6152};
+				angles[]={-0,0,6.2807932};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=354;
+			type="TWC_AmmoBox_Other_Medical_Portable";
+		};
+		class Item178
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={8103.4019,29.391836,9695.125};
+				angles[]={-0,0,6.2807932};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=355;
+			type="TWC_AmmoBox_Other_Medical_Portable";
+		};
+		class Item179
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={8103.4102,29.391817,9694.6836};
+				angles[]={-0,0,6.2807932};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=356;
+			type="TWC_AmmoBox_Other_Medical_Portable";
+			atlOffset=1.9073486e-006;
+		};
+		class Item180
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={8098.8037,30.320219,9695.4395};
+				angles[]={-0,0,6.2599902};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=357;
+			type="TWC_AmmoBox_Other_Pallet";
+			atlOffset=-7.6293945e-006;
+		};
+		class Item181
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={8098.7827,29.42823,9694.499};
+				angles[]={-0,0,6.2599902};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=358;
+			type="TWC_AmmoBox_Other_Medical_Portable";
+			atlOffset=-1.9073486e-005;
+		};
+		class Item182
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={8098.7905,29.428062,9693.9248};
+				angles[]={-0,0,6.2599902};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=359;
+			type="TWC_AmmoBox_Other_Medical_Portable";
+			atlOffset=-9.5367432e-006;
+		};
+		class Item183
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={8098.7939,29.427979,9693.3574};
+				angles[]={-0,0,6.2599902};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=360;
+			type="TWC_AmmoBox_Other_Medical_Portable";
+			atlOffset=-5.7220459e-006;
+		};
+		class Item184
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={8079.5405,31.206953,9703.7432};
+				angles[]={0,4.7228427,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=361;
+			type="FoldChair";
+			atlOffset=0.73434067;
+		};
+		class Item185
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={8079.5332,31.155699,9702.5127};
+				angles[]={0,4.7228427,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=362;
+			type="FoldChair";
+			atlOffset=0.68185425;
+		};
+		class Item186
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={8079.5176,31.142979,9701.1855};
+				angles[]={0,4.7228427,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=363;
+			type="FoldChair";
+			atlOffset=0.66747284;
+		};
+		class Item187
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={8079.5488,31.17411,9699.9561};
+				angles[]={0,4.7228427,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=364;
+			type="FoldChair";
+			atlOffset=0.6987915;
+		};
+		class Item188
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={8078.2837,31.209398,9703.6758};
+				angles[]={6.2594442,4.7228427,6.2821498};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=365;
+			type="FoldChair";
+		};
+		class Item189
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={8078.2676,31.180845,9702.4727};
+				angles[]={6.2594442,4.7228427,6.2821498};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=366;
+			type="FoldChair";
+		};
+		class Item190
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={8078.2588,31.165955,9701.1992};
+				angles[]={0.023389664,4.7228427,6.2822719};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=367;
+			type="FoldChair";
+		};
+		class Item191
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={8078.2725,31.19578,9699.9238};
+				angles[]={0.023389664,4.7228427,6.2822719};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=368;
+			type="FoldChair";
+		};
+		class Item192
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={8101.1279,30.748621,9700.7471};
+				angles[]={0.00076794485,0,6.2807941};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=369;
+			type="CampEast";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="TWC_isFieldTent";
+					expression="_this setVariable ['TWC_Medical_isFieldTent', _value, true]; _this setVariable ['ace_medical_isMedicalFacility', _value, true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=1;
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ace_isMedicalFacility";
+					expression="_this setVariable [""ace_medical_isMedicalFacility"",_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=1;
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+		class Item193
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={8108.6919,31.893074,9691.332};
+				angles[]={-0,1.5266265,6.2807932};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=370;
+			type="TWC_Vehicle_Generic_LandRoverAmbulance_Woodland";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ace_isMedicalVehicle";
+					expression="_this setVariable [""ace_medical_medicClass"",_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=1;
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ace_cookoff_enableAmmoCookoff";
+					expression="if !(_value) then {_this setVariable ['ace_cookoff_enableAmmoCookoff', _value, true];};";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+		class Item194
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=8;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={8070.1206,30.200527,9694.5039};
+						angles[]={0.00077204045,3.1840403,6.271987};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						description="Trainee (Medical)@Trainees (Medical)";
+						isPlayable=1;
+					};
+					id=373;
+					type="TWC_Infantry_Modern_Regular_Woodland_Platoon_Medic";
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={8065.125,30.258398,9694.7656};
+						angles[]={0.0015822123,3.1840403,6.2711854};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						description="Trainee (Medical)@Trainees (Medical)";
+						isPlayable=1;
+					};
+					id=375;
+					type="TWC_Infantry_Modern_Regular_Woodland_Platoon_Medic";
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={8075.1162,30.141737,9694.3418};
+						angles[]={0.00084572798,3.1840403,6.2464013};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						description="Trainee (Medical)@Trainees (Medical)";
+						isPlayable=1;
+					};
+					id=383;
+					type="TWC_Infantry_Modern_Regular_Woodland_Platoon_Medic";
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={8062.9448,30.284439,9694.8389};
+						angles[]={0.0015822123,3.1840403,6.2799835};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						description="Trainee (Medical)@Trainees (Medical)";
+						isPlayable=1;
+					};
+					id=384;
+					type="TWC_Infantry_Modern_Regular_Woodland_Platoon_Medic";
+				};
+				class Item4
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={8080.1118,29.958065,9694.1289};
+						angles[]={0.00084572798,3.1840403,6.2464013};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						description="Trainee (Medical)@Trainees (Medical)";
+						isPlayable=1;
+					};
+					id=380;
+					type="TWC_Infantry_Modern_Regular_Woodland_Platoon_Medic";
+				};
+				class Item5
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={8067.624,30.22851,9694.7012};
+						angles[]={0.0015822123,3.1840403,6.2799835};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						description="Trainee (Medical)@Trainees (Medical)";
+						isPlayable=1;
+					};
+					id=381;
+					type="TWC_Infantry_Modern_Regular_Woodland_Platoon_Medic";
+				};
+				class Item6
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={8077.4424,30.056299,9694.1318};
+						angles[]={-0,3.1840403,6.247201};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						description="Trainee (Medical)@Trainees (Medical)";
+						isPlayable=1;
+					};
+					id=377;
+					type="TWC_Infantry_Modern_Regular_Woodland_Platoon_Medic";
+				};
+				class Item7
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={8072.6089,30.172749,9694.3857};
+						angles[]={0.0015822123,3.1840403,6.2799835};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						description="Trainee (Medical)@Trainees (Medical)";
+						isPlayable=1;
+					};
+					id=378;
+					type="TWC_Infantry_Modern_Regular_Woodland_Platoon_Medic";
+				};
+			};
+			class Attributes
+			{
+				formation="LINE";
+			};
+			id=372;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="groupID";
+					expression="[_this, _value] call CBA_fnc_setCallsign";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="Trainees (Medical)";
 						};
 					};
 				};
