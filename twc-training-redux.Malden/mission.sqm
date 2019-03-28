@@ -8,18 +8,18 @@ class EditorData
 	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=402;
+		nextID=415;
 	};
 	class MarkerIDProvider
 	{
-		nextID=3;
+		nextID=6;
 	};
 	class Camera
 	{
-		pos[]={8081.3672,58.731087,9596.0645};
-		dir[]={0.2010804,-0.29212731,0.93504447};
-		up[]={0.061421536,0.95637345,0.28561312};
-		aside[]={0.97769028,4.4429908e-007,-0.21024919};
+		pos[]={8103.8457,55.027569,9717.6631};
+		dir[]={-0.36038893,-0.47679839,-0.80178636};
+		up[]={-0.19547586,0.87900579,-0.4348923};
+		aside[]={-0.91212595,-1.9631989e-007,0.40998483};
 	};
 };
 binarizationWanted=0;
@@ -54,13 +54,16 @@ addons[]=
 	"CUP_Buildings_Config",
 	"twc_modern",
 	"A3_Structures_F_Bootcamp_Training",
-	"A3_Weapons_F_Ammoboxes"
+	"A3_Weapons_F_Ammoboxes",
+	"UK3CB_BAF_Vehicles_Merlin",
+	"A3_Structures_F_Mil_Shelters",
+	"CUP_WaterVehicles_MK10"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=26;
+		items=28;
 		class Item0
 		{
 			className="A3_Structures_F";
@@ -211,6 +214,18 @@ class AddonsMetaData
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
+		class Item26
+		{
+			className="UK3CB_BAF_Vehicles_Merlin";
+			name="3CB BAF Vehicles - Merlin";
+			author="3 Commando Brigade";
+			url="www.3commandobrigade.com";
+		};
+		class Item27
+		{
+			className="CUP_WaterVehicles_MK10";
+			name="CUP_WaterVehicles_MK10";
+		};
 	};
 };
 randomSeed=460684;
@@ -244,7 +259,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=208;
+		items=218;
 		class Item0
 		{
 			dataType="Object";
@@ -3357,7 +3372,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={8104.6875,29.388752,9695.6172};
-				angles[]={-0,0,6.2807932};
+				angles[]={0,0,6.2807932};
 			};
 			side="Empty";
 			flags=4;
@@ -3374,7 +3389,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={8104.707,29.388706,9695.1455};
-				angles[]={-0,0,6.2807932};
+				angles[]={0,0,6.2807932};
 			};
 			side="Empty";
 			flags=4;
@@ -3391,7 +3406,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={8104.6914,29.388741,9694.6895};
-				angles[]={-0,0,6.2807932};
+				angles[]={0,0,6.2807932};
 			};
 			side="Empty";
 			flags=4;
@@ -4170,7 +4185,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={8103.3901,29.391865,9695.6152};
-				angles[]={-0,0,6.2807932};
+				angles[]={0,0,6.2807932};
 			};
 			side="Empty";
 			flags=4;
@@ -4186,7 +4201,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={8103.4019,29.391836,9695.125};
-				angles[]={-0,0,6.2807932};
+				angles[]={0,0,6.2807932};
 			};
 			side="Empty";
 			flags=4;
@@ -4202,7 +4217,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={8103.4102,29.391817,9694.6836};
-				angles[]={-0,0,6.2807932};
+				angles[]={0,0,6.2807932};
 			};
 			side="Empty";
 			flags=4;
@@ -4219,7 +4234,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={8098.8037,30.320219,9695.4395};
-				angles[]={-0,0,6.2599902};
+				angles[]={0,0,6.2599902};
 			};
 			side="Empty";
 			flags=4;
@@ -4228,7 +4243,7 @@ class Mission
 			};
 			id=357;
 			type="TWC_AmmoBox_Other_Pallet";
-			atlOffset=-7.6293945e-006;
+			atlOffset=-0.00019645691;
 		};
 		class Item179
 		{
@@ -4236,7 +4251,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={8098.7827,29.42823,9694.499};
-				angles[]={-0,0,6.2599902};
+				angles[]={0,0,6.2599902};
 			};
 			side="Empty";
 			flags=4;
@@ -4253,7 +4268,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={8098.7905,29.428062,9693.9248};
-				angles[]={-0,0,6.2599902};
+				angles[]={0,0,6.2599902};
 			};
 			side="Empty";
 			flags=4;
@@ -4270,7 +4285,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={8098.7939,29.427979,9693.3574};
-				angles[]={-0,0,6.2599902};
+				angles[]={0,0,6.2599902};
 			};
 			side="Empty";
 			flags=4;
@@ -4473,7 +4488,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={8108.6919,31.893074,9691.332};
-				angles[]={-0,1.5266265,6.2807932};
+				angles[]={0,1.5266265,6.2807932};
 			};
 			side="Empty";
 			flags=4;
@@ -4482,6 +4497,7 @@ class Mission
 			};
 			id=370;
 			type="TWC_Vehicle_Generic_LandRoverAmbulance_Woodland";
+			atlOffset=-0.00054550171;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -4887,8 +4903,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={4668.2827,81.585487,3597.6167};
-				angles[]={6.2448039,0,6.2551923};
+				position[]={4660.5449,81.683617,3597.7722};
+				angles[]={6.2424088,3.4934847,0.032787289};
 			};
 			side="Empty";
 			flags=4;
@@ -4897,7 +4913,29 @@ class Mission
 			};
 			id=400;
 			type="Box_NATO_Wps_F";
-			atlOffset=-1.5258789e-005;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ammoBox";
+					expression="[_this,_value] call bis_fnc_initAmmoBox;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="[[[[],[]],[[],[]],[[""U_B_FullGhillie_sard"",""ACE_RangeCard""],[10,10]],[[],[]]],false]";
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 		class Item207
 		{
@@ -4914,6 +4952,140 @@ class Mission
 			};
 			id=401;
 			type="TargetBootcampHuman_F";
+		};
+		class Item208
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={8091.8081,33.346474,9675.1748};
+				angles[]={0.0015822123,3.1453633,6.2599902};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=403;
+			type="UK3CB_BAF_Merlin_HC3_CSAR";
+		};
+		class Item209
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4672.6387,83.234818,3593.1138};
+				angles[]={6.2448039,3.5337274,6.2551923};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=404;
+			type="TWC_Vehicle_Modern_LandRover_Woodland";
+		};
+		class Item210
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4668.5854,83.417175,3594.7961};
+				angles[]={6.2448039,3.5638006,6.2551923};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=405;
+			type="TWC_Vehicle_Modern_LandRover_Woodland";
+		};
+		class Item211
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4664.0249,83.61454,3596.718};
+				angles[]={6.2424073,3.5299613,6.2575908};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=406;
+			type="TWC_Vehicle_Modern_LandRover_Woodland";
+		};
+		class Item212
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4668.1191,82.615059,3596.5308};
+				angles[]={6.2448039,0.44046456,6.2551923};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=408;
+			type="CamoNet_BLUFOR_F";
+		};
+		class Item213
+		{
+			dataType="Marker";
+			position[]={4658.7178,81.257004,3593.4009};
+			name="tele_sniper";
+			type="Empty";
+			id=410;
+			atlOffset=0.00030517578;
+		};
+		class Item214
+		{
+			dataType="Marker";
+			position[]={4653.1489,81.43235,3602.1833};
+			name="marker_4";
+			text="Sniper Training";
+			type="b_hq";
+			id=411;
+		};
+		class Item215
+		{
+			dataType="Marker";
+			position[]={8102.791,29.398523,9681.4463};
+			name="marker_5";
+			text="Medical Training";
+			type="b_med";
+			id=412;
+		};
+		class Item216
+		{
+			dataType="Comment";
+			class PositionInfo
+			{
+				position[]={8573.125,0,10080.24};
+			};
+			title="amphibious assault";
+			id=413;
+			atlOffset=6.5758977;
+		};
+		class Item217
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={8602.5957,3.3363917,10093.523};
+				angles[]={0,4.0125008,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=414;
+			type="CUP_B_MK10_GB";
+			atlOffset=7.8377867;
 		};
 	};
 };
