@@ -8,18 +8,18 @@ class EditorData
 	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=415;
+		nextID=416;
 	};
 	class MarkerIDProvider
 	{
-		nextID=6;
+		nextID=7;
 	};
 	class Camera
 	{
-		pos[]={8103.8457,55.027569,9717.6631};
-		dir[]={-0.36038893,-0.47679839,-0.80178636};
-		up[]={-0.19547586,0.87900579,-0.4348923};
-		aside[]={-0.91212595,-1.9631989e-007,0.40998483};
+		pos[]={8181.3027,67.314621,10229.051};
+		dir[]={0.092211902,-0.71333969,0.69479436};
+		up[]={0.093848959,0.70081836,0.70713192};
+		aside[]={0.99134445,3.509922e-008,-0.13157006};
 	};
 };
 binarizationWanted=0;
@@ -259,7 +259,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=218;
+		items=219;
 		class Item0
 		{
 			dataType="Object";
@@ -5086,6 +5086,15 @@ class Mission
 			id=414;
 			type="CUP_B_MK10_GB";
 			atlOffset=7.8377867;
+		};
+		class Item218
+		{
+			dataType="Marker";
+			position[]={8193.2666,28.785,10268.417};
+			name="tele_start";
+			type="Empty";
+			id=415;
+			atlOffset=-0.00038719177;
 		};
 	};
 };
