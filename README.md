@@ -32,4 +32,3 @@ The Training Mission used in The Wrecking Crew Realism ArmA 3 Group. To contribu
 * @razmisc
 * @twc_config
 * @twc_framework
-* @ukcw
